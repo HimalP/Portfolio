@@ -41,7 +41,7 @@ li {
 }
 
 li {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.205);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 50%;
     height: 4rem;
     width: 4rem;
@@ -62,4 +62,23 @@ li {
     display: flex;
     justify-content: space-evenly;
     width: 50%;
+}
+
+#portfolio .box {
+    border-radius: 16px;
+}
+
+#portfolio .box img {
+    object-fit: contain;
+    border-radius: 16px;
+}
+
+.contact-icons span {
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    height: 4.5rem;
+    width: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
