@@ -5,11 +5,12 @@
 @import "../../node_modules/bulma/sass/utilities/initial-variables";
 
 // 2. Set your own initial variables
-
+$darkpurple: #202040;
 
 
 // 3. Set the derived variables
-
+$primary: $darkpurple;
+$link: #FFBD69;
 
 // 4. Import the rest of Bulma
 @import "../../node_modules/bulma/bulma";
