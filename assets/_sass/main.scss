@@ -1,16 +1,23 @@
 @charset "utf-8";
 
 
-// 1. Import the initial variables
+// Import the initial variables
 @import "../../node_modules/bulma/sass/utilities/initial-variables";
 
-// 2. Set your own initial variables
-$darkpurple: #202040;
+
+// Set the derived variables
+$primary: #725ac1;
+$danger: #ef476f;
+$dark: #1a1b18;
+$info: #353a47;
+$link: #1B9C85;
+$text: white;
 
 
-// 3. Set the derived variables
-$primary: $darkpurple;
-$link: #FFBD69;
+$navbar-background-color: $dark;
+$navbar-box-shadow-color: $dark;
+$navbar-item-hover-background-color: $primary;
+$navbar-item-hover-color: $danger;
 
-// 4. Import the rest of Bulma
+// Import the rest of Bulma
 @import "../../node_modules/bulma/bulma";

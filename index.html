@@ -16,7 +16,7 @@
   <script src="https://kit.fontawesome.com/c8213602af.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="has-background-dark">
 
   <!-- Navbar -->
   <nav class="navbar is-fixed-top is-spaced has-shadow has-text-weight-bold" role="navigation"
@@ -56,21 +56,21 @@
   </nav>
 
   <!-- Hero -->
-  <section class="hero is-fullheight is-bold">
+  <section class="hero is-fullheight is-dark is-bold">
     <div class="hero-body">
       <div class="container">
         <div class="columns is-gapless">
           <div class="column">
             <div class="hero-text">
-              <h1 class="title is-spaced is-size-1">
-                Aspiring <span class="has-text-danger">Full-Stack <br> Developer</span>
+              <h1 class="title is-spaced has-text-white is-size-1">
+                Aspiring <span class="has-text-primary">Full-Stack <br> Developer</span>
 
                 <figure class="image is-64x64 ml-2">
                   <img src="assets/img/waving-hand.png">
                 </figure>
               </h1>
 
-              <h2 class="subtitle has-text-grey">
+              <h2 class="subtitle has-text-grey-light">
                 Hi, I'm Himal Patel. A passionate Full-stack <br> Developer based in Toronto, Canada. 📍
               </h2>
 
@@ -78,20 +78,20 @@
               <span>
                 <span class="icon mr-4">
                   <a href="https://www.linkedin.com/in/himalpatel9/" target="_blank">
-                    <i class="fa-brands fa-linkedin fa-2xl"></i>
+                    <i class="fa-brands fa-linkedin fa-2xl has-text-link"></i>
                   </a>
                 </span>
 
                 <span class="icon">
                   <a href="https://github.com/himalp" target="_blank">
-                    <i class="fa-brands fa-github fa-2xl"></i>
+                    <i class="fa-brands fa-github fa-2xl has-text-link"></i>
                   </a>
                 </span>
               </span>
             </div>
           </div>
 
-          <div class="column ">
+          <div class="column">
             <img id="hero-img" src="./assets/img/Me.JPG" alt="">
           </div>
         </div>
@@ -101,7 +101,7 @@
     <!-- Stack -->
     <section class="section p-5 stack ">
       <div class="container has-text-weight-bold">
-        <h1 class="title is-size-5">Tech Stack | &nbsp;</h1>
+        <h1 class="title has-text-white is-size-5">Tech Stack | &nbsp;</h1>
 
         <ul class="logos">
           <li>
@@ -133,9 +133,8 @@
   </section>
 
 
-
   <!-- About Me -->
-  <section id="about" class="section">
+  <section id="about" class="section mt-6">
     <div class="container">
       <div class="columns">
         <div class="column">
@@ -143,15 +142,15 @@
         </div>
 
         <div class="column">
-          <h4 class="has-text-weight-bold has-text-link is-size-5 mb-1">
+          <h4 class="has-text-weight-bold has-text-danger is-size-5 mb-1">
             ABOUT ME
           </h4>
 
-          <h1 class="title is-spaced">
+          <h1 class="title has-text-white is-spaced">
             A Full-stack Developer in the making based in Toronto, Ontario 📍
           </h1>
 
-          <p class="subtitle has-text-grey">
+          <p class="subtitle has-text-grey-light">
             As an experienced Full-Stack Developer, I have a broad skillset that includes proficiency in HTML, CSS,
             JavaScript, Vue.js, Node.js, and a variety of other frameworks, databases, and technologies. With a
             Bachelor's degree in Computer Science, I have gained a deep understanding of programming principles and
@@ -168,21 +167,21 @@
   <!-- Portfolio -->
   <section id="portfolio" class="section mt-6 mx-auto">
     <div class="container">
-      <h4 class="has-text-weight-bold has-text-link is-size-5 mb-1">
+      <h4 class="has-text-weight-bold has-text-danger is-size-5 mb-1">
         PORTFOLIO
       </h4>
 
-      <h1 class="title is-spaced">
+      <h1 class="title has-text-white is-spaced">
         Projects showcasing my skills as a developer 🧩
       </h1>
 
       <!-- Portfolio Cards -->
       <!-- ToDo Cast -->
-      <div class="box has-text-centered">
+      <div class="box has-text-centered has-text-white has-background-info">
         <div class="columns">
           <div class="column is-flex is-align-items-center">
             <div class="content p-6">
-              <p class="title is-4">ToDo Cast</p>
+              <p class="title has-text-white is-4">ToDo Cast</p>
 
               <p>
                 ToDo Cast is a productivity app that combines weather forecasts and todo lists into one convenient
@@ -191,12 +190,13 @@
 
               <div class="tags mt-5 is-centered">
                 <span class="tag is-primary">MongoDb</span>
-                <span class="tag is-info">VueJs</span>
+                <span class="tag is-danger">VueJs</span>
                 <span class="tag is-success">ExpressJs</span>
               </div>
 
               <span class="icon mt-5">
-                <a href="" class="is-flex is-align-items-center has-text-weight-bold">
+                <a href="https://github.com/HimalP/Weather-Todo" target="_blank"
+                  class="is-flex is-align-items-center has-text-weight-bold has-text-link">
                   Code
                   <i class="fa-brands fa-github fa-2xl ml-2"></i>
                 </a>
@@ -213,9 +213,9 @@
       </div>
 
       <!-- Embyr -->
-      <div class="box has-text-centered">
+      <div class="box has-text-centered has-text-white has-background-info">
         <div class="columns">
-          <div class="column">
+          <div class="column px-6">
             <figure class="image is-5by3">
               <img src="./assets/img/portfolio/embyr.png">
             </figure>
@@ -223,7 +223,7 @@
 
           <div class="column is-flex is-align-items-center">
             <div class="content p-6">
-              <p class="title is-4">Embyr</p>
+              <p class="title has-text-white is-4">Embyr</p>
 
               <p>
                 Send messages to your contacts quickly and
@@ -231,16 +231,17 @@
               </p>
 
               <div class="tags mt-5 is-centered">
-                <span class="tag is-primary">ElectronJs</span>
-                <span class="tag is-info">PostgreSQL</span>
+                <span class="tag is-danger">ElectronJs</span>
+                <span class="tag is-dark">PostgreSQL</span>
                 <span class="tag is-success">.NET</span>
-                <span class="tag is-success">WebSockets</span>
+                <span class="tag is-primary">WebSockets</span>
               </div>
 
-              <span class="icon mt-5">
-                <a href="" class="is-flex is-align-items-center has-text-weight-bold">
+              <span class="icon mt-5 ">
+                <a href="https://github.com/HimalP/Embyr-Chat" target="_blank"
+                  class="is-flex is-align-items-center has-text-weight-bold has-text-link">
                   Code
-                  <i class="fa-brands fa-github fa-2xl ml-2"></i>
+                  <i class="fa-brands fa-github fa-2xl ml-2 "></i>
                 </a>
               </span>
             </div>
@@ -254,21 +255,21 @@
   </section>
 
   <!-- Contact -->
-  <section id="contact" class="section">
+  <section id="contact" class="section mt-6">
     <div class="container">
-      <h4 class="has-text-weight-bold has-text-link is-size-5 mb-1">
+      <h4 class="has-text-weight-bold has-text-danger is-size-5 mb-1">
         CONTACT
       </h4>
 
-      <h1 class="title is-spaced">
+      <h1 class="title has-text-white is-spaced">
         I'm just a message away! Feel free to contact me below. 👇
       </h1>
 
-      <div class="contact-icons is-flex">
+      <div class="contact-icons is-flex has-text-grey-light">
         <!-- Location -->
         <div class="contact-box is-flex is-align-items-center">
           <span>
-            <i class="fa-solid fa-map-location-dot fa-2xl"></i>
+            <i class="fa-solid fa-map-location-dot fa-2xl has-text-primary"></i>
           </span>
 
           <div class="contact-info ml-5">
@@ -280,7 +281,7 @@
         <!-- Email -->
         <div class="contact-box is-flex is-align-items-center ml-6">
           <span>
-            <i class="fa-solid fa-envelope-open-text fa-2xl"></i>
+            <i class="fa-solid fa-envelope-open-text fa-2xl has-text-primary"></i>
           </span>
 
           <div class="contact-info ml-5">
@@ -292,20 +293,20 @@
     </div>
   </section>
 
-  <footer class="footer has-background-dark">
+  <footer class="footer has-background-primary mt-6">
     <div class="container is-flex is-justify-content-space-between">
       <p class="has-text-weight-bold has-text-white is-size-5">Copyright © 2023. All rights are reserved</p>
 
       <span>
-        <span class="icon mr-3">
+        <span class="icon mr-4">
           <a href="https://www.linkedin.com/in/himalpatel9/" target="_blank">
-            <i class="fa-brands fa-linkedin fa-2xl"></i>
+            <i class="fa-brands fa-linkedin fa-2xl has-text-link"></i>
           </a>
         </span>
 
         <span class="icon">
           <a href="https://github.com/himalp" target="_blank">
-            <i class="fa-brands fa-github fa-2xl"></i>
+            <i class="fa-brands fa-github fa-2xl has-text-link"></i>
           </a>
         </span>
       </span>
